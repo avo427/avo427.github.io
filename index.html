@@ -4,17 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Apex Nurse Staffing Agency</title>
     <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <h2>LeMarchand Nursing Staffing Agency</h2>
-    <h1>Get Instant Access to Thousands of Skilled, Vetted Nurses</h1>
-    <p>LeMarchand is one of the largest staffing agencies in Canada. We can match you with nurses across an array of specialties, from RNs to travel nurses to nurse practitioners.</p>
-    <p>We know how hard it can be to find nurses. Our dedicated healthcare recruiters can find talent for your needs and have them start in as little as one week. As a Joint Commission-certified company, we’re dedicated to helping you find talent who will help you provide the best care to your patients.</p>
-    <p>Are you a nurse looking for a job? <a href="application.html">Apply here</a></p>
-    <p>Questions about staffing? Call us toll-free <a href="tel:305-849-5882">305-849-5882</a></p>
-    <a href="hiring.html"><button class="button-main" role="button">Hire Top Nurses</button></a>
-    <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Apex Nurse Staffing Agency</h1>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#contactus">Contact Us</a></li>
+          <li><a href="#jobFilters">Search Jobs</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section class="hero">
+      <div class="container1">
+        <h1>Welcome to our Job Portal</h1>
+        <h2>Find your dream job today!</h2>
+        <button id="jobSearchBtn">Find a Job</button>
+        <button id="addJobBtn">Post a Job</button>
+      </div>
+    </section>
+  </header>
+  
+  <div class="container">
+    <div id="jobFilters">
+      <form class="row">
+        <label for="filterSalary">Filter by Salary:</label>
+        <input type="number" id="filterSalary">
+        
+        <label for="filterLocation">Filter by Location:</label>
+        <input type="text" id="filterLocation" class="form-control">
+        
+        <label for="filterJobType">Filter by Job Type:</label>
+        <select id="filterJobType">
+          <option value="">All</option>
+          <option value="Full Time">Full Time</option>
+          <option value="Part Time">Part Time</option>
+        </select>
+        
+        <button id="search">Search</button>
+      </form>
+    </div>
+    
+    <div id="jobList"></div>
+  </div>
+
+  <footer id="contactus">
+    <section class="">
+      <h4>Contact</h4>
+      <p><i></i> 444 Nurse Lane, Los Angeles, CA</p>
+      <p><i></i>info@apexonestaffing.com</p>
+      <p><i></i> +1 234 567 8910</p>
+  </section>
+  <div style="background-color: rgba(0, 0, 0, 0.05);">
+    <a href="https://avo427.github.io">apexonestaffing.com</a>
+  </div>
+  
+  <script src="script.js"></script>
+    
   </body>
 </html>
