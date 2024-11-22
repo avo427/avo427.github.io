@@ -97,12 +97,12 @@ button:hover {
   background-color: rgb(39, 10, 170);
 }
 
-
 #jobForm{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .job-card {
   border: 1px solid #ccc;
   margin-bottom: 10px;
