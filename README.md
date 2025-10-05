@@ -1,11 +1,28 @@
-# Apex Nurse Staffing Agency Website
+# Daisy Capital Partners
 
-**Apex Nurse Staffing Agency** is a travel staff nursing agency with 10 years of experience delivering vetted and talented nurses to more than 100+ clients in the healthcare ecosystem.
+**Daisy Capital Partners** is an investment firm focused on long-term value creation through disciplined, research-driven investment strategies.
 
-This website serves as a landing page and job portal for traveling nurses seeking job listings with our healthcare clients.
+This website serves as the firm's landing page, presenting our core investment philosophy and philanthropic mission.
 
-Users can filter through the various listings by salary, location, and job type (part time vs full time).  Each listing shows a detailed summary of the job listing, including the requirements for the job.
+## Design Philosophy
 
-*CSS* is used to style the page, while *JavaScript* enables the dynamic listing and filtering of the job listings. A *JSON-styled* job listing class is used to maintain and store the job listing, containing the information regarding job title, company, location, description, salary, and job type.
+The site features a clean, minimal design inspired by modern professional investment firms, with:
+- Elegant typography and ample whitespace
+- Focus on content readability
+- Professional, sophisticated aesthetic
+- Mobile-responsive layout
 
-Although the job listing and searching function has been built out, additional work needs to be done to finish the addition of posting jobs. This has been partially built out through the use of  a *JSON-styled* job listing class. However, the full implementation would require the addition of a database that is beyond the scope for this pre-coursework project.
+## Investment Philosophy
+
+The site presents our 5 Core Beliefs:
+1. Intrinsic Value
+2. Novel Paradoxical Insight
+3. Machine Learning and Human Psychology
+4. Rational and Disciplined Execution
+5. Concentrated Portfolio
+
+## Philanthropic Mission
+
+10% of all profits are dedicated to the Daisy Foundation, supporting:
+- **Daisy Sanctuary** - A meditative retreat on the Santa Barbara coast for mental health treatment
+- **Daisy Education** - Educational funding for children in emerging countries, starting with Canh Tho, Vietnam
